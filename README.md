@@ -16,7 +16,7 @@ A simple command-line tool to explore airport connections using data from OpenFl
 ## 🌐 Data Source
 
 All data files come from the OpenFlights project:
-🔗 https://openflights.org/data.html
+🔗 https://openflights.org/data.php
 
 Download `airports.dat` and `routes.dat` and place them in the same folder as `flight_network_main.py`.
 
