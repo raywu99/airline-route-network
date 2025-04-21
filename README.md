@@ -44,23 +44,23 @@ To launch the interactive menu, run the following command from your terminal:
    ```
 
 You will see a menu. Choose one of the options:
-1. Find shortest path
+1. **Find shortest path**
 
     Enter departure and arrival IATA codes (e.g., `LAX` to `JFK`) to find the route with the fewest flights between them.
 
-2. Show top hubs
+2. **Show top hubs**
 
     Displays the airports with the most direct flight connections.
 
-3. List neighbors
+3. **List neighbors**
 
     Lists all airports directly connected to a selected airport.
 
-4. Airport stats
+4. **Airport stats**
 
     Shows the name, location, coordinates, and number of direct connections for a specific airport.
 
-5. Exit
+5. **Exit**
 
     Exits the program.
 
