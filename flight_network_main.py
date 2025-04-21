@@ -99,6 +99,8 @@ def find_shortest_path(G, src, dst):
     try:
         path = nx.shortest_path(G, source=src, target=dst)
         print(" -> ".join(path))
+        if len(path) == 2:
+            print("This is a direct flight ✈️")
     except nx.NetworkXNoPath:
         print(f"No path found from {src} to {dst}")
 
